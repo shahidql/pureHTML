@@ -50,7 +50,7 @@ http.createServer(function (req, res) {
     }
 
     // read file from file system
-    fs.readFile(pathname, function(err, data){
+    fs.readFile('index.html', function(err, data){
       if(err){
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
