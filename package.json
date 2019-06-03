@@ -1,4 +1,19 @@
 {
-  "name": "pure-html",
-  "version": "1.0.0"
+  "name": "pureHTML",
+  "version": "1.0.0",
+  "description": "node app ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahidql/pureHTML.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahidql/pureHTML/issues"
+  },
+  "homepage": "https://github.com/shahidql/pureHTML#readme"
 }
