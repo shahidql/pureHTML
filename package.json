@@ -4,7 +4,12 @@
   "description": "node app ",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist/index.js",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "lint": "eslint src --ext ts",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/shahidql/pureHTML/issues"
   },
-  "homepage": "https://github.com/shahidql/pureHTML#readme"
+  "homepage": "https://github.com/shahidql/pureHTML#readme",
+  "dependencies": {
+    "@types/node": "7.0.22",
+    "express": "4.15.3",
+    "nodemon": "1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "7.0.22",
+    "supertest": "3.0.0",
+    "tsc": "1.20150623.0",
+    "typescript": "2.3.3"
+  }
 }
