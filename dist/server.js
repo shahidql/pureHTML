@@ -17,7 +17,11 @@ class Server {
                             { "value": "New", "onclick": "CreateNewDoc()" },
                             { "value": "Open", "onclick": "OpenDoc()" },
                             { "value": "Close", "onclick": "CloseDoc()" },
-                            { "value": "Cancel", "onclick": "CloseDoc()" }
+                            { "value": "Cancel", "onclick": "CloseDoc()" },
+                            { "value": "New1", "onclick": "CreateNewDoc()" },
+                            { "value": "Open1", "onclick": "OpenDoc()" },
+                            { "value": "Close1", "onclick": "CloseDoc()" },
+                            { "value": "Cancel1", "onclick": "CloseDoc()" }
                         ]
                     }
                 } });
